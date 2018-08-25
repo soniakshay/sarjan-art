@@ -1,0 +1,80 @@
+
+
+.btnenter
+{
+
+background:rgba(0,0,0,0.2);border:2px solid;text-align:center;padding:10px;font-size:35px;font-family:Brush Script Std;color:white;border-radius:10px;
+
+}
+.btnenter:hover
+{
+	background:rgba(0,0,0,0.5);
+	cursor:default;
+}
+
+body
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	}
+#preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: white;
+	z-index: 999999;
+}
+
+#status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(../images/preload.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
+/* #Parallax
+================================================== */
+
+@media only screen and (min-width: 1930px) { .parallax { background-size: cover; } }
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
+}
+@media only screen and (max-width: 959px) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
+}
+
+.parallax-home {
+    background: url('../images/2.jpg') repeat fixed;
+	width:100%;
+	
+	
+	padding:0;
+	margin:0;
+	background-attachment:fixed;
+	background-repeat:repeat; 
+	background-size:cover; 
+	color:#000;  
+	z-index:1;
+	overflow:hidden;
+    
+}
+.parallax{
+	width:100%;
+	padding:0;
+	margin:0;
+	background-attachment:fixed;
+	background-repeat:repeat; 
+	background-size:cover; 
+	color:#000;  
+	z-index:1;
+	overflow:hidden;
+}
+
+}

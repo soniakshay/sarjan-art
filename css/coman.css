@@ -1,0 +1,103 @@
+#wheading
+{
+	font-size:40px;
+	color:red;
+}
+
+.footerlink
+{
+	color:white;
+	text-decoration:none;
+}
+
+.footerlink:hover
+{
+	color:white;
+	text-decoration:none;
+}
+
+#header
+{
+	background:Url('../images/bg1.png');
+	width:100%;
+	padding:20px;
+	border-bottom:2px solid;
+	border-color:red;
+	
+}
+.menu{
+	margin-top:40px;
+	display:inline-block;
+	color:red;
+	font-family:Adobe Heiti Std R;
+	font-size:20px;
+	margin-left:30px;
+}
+
+.menu:hover{
+	color:black;
+	border-bottom:2px solid;
+	cursor:default;
+	border-color:red;
+
+}
+	#rmenu{
+		display:none;
+	}
+
+.logoname
+{
+	margin-left:120px;
+
+}
+	/* responsive */
+
+@media screen and (max-width:356px) {
+.logoname
+{
+	width:150px;
+
+}
+}
+@media screen and (max-width:289px) {
+.logoname
+{
+	margin-left:0px;
+
+}
+}
+
+@media screen and (max-width:600px) {
+	#wheading
+	{
+		font-size:35px;
+	}
+  #menu{
+	display:none;
+  }
+  #rmenu
+	{
+	display:block;
+	}
+ .rmenu{
+  
+	display:block;
+	color:red;
+	font-family:Adobe Heiti Std R;
+	font-size:20px;
+	background:white;
+	border-bottom:2px solid;
+	border-color:red;
+	padding:10px;
+	text-align:center;
+	
+	}
+	#remenu
+	{
+		display:none;
+		}
+	.rmenu:hover{
+	background:red;
+	color:white;
+	}
+}
